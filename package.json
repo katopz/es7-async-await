@@ -1,0 +1,40 @@
+{
+  "name": "es7-async-await",
+  "version": "1.0.0",
+  "description": "Boilerplate for ES7 async/await",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --progress",
+    "build": "webpack -p --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katopz/es7-async-await.git"
+  },
+  "keywords": [
+    "es7",
+    "async",
+    "await"
+  ],
+  "author": "katopz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katopz/es7-async-await/issues"
+  },
+  "homepage": "https://github.com/katopz/es7-async-await#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "eslint": "^3.12.2",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
